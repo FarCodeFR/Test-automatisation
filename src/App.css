@@ -1,0 +1,17 @@
+ul {
+    width: 100%;
+}
+li {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+    height: 50px;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+p {
+    width: 100%;
+}
