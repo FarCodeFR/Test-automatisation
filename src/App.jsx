@@ -30,7 +30,7 @@ function App() {
 
     return (
         <>
-            <h1>Ma Todo List</h1>
+            <h1>Todo List</h1>
 
             <form onSubmit={handleSubmit}>
                 <input
