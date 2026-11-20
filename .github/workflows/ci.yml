@@ -22,5 +22,8 @@ jobs:
             - name: Lancer le linter
               run: npm run lint
 
+            - name: Lancer prettier
+              run: npm run prettier:fix
+
             - name: Lancer les tests
               run: npx vitest run
